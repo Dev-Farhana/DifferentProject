@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d87093;
+    /* background-image: linear-gradient(to top, #008080 0%, #ffd700 50%, #ff7f50 100%); */
+    /* background-image: linear-gradient(to top, #0000ff 0%, #de5d83 50%, #fffff0 100%); */
+    /* background-image: linear-gradient(to top, #808080 0%, #ffdb58 60%, #50c878 100%); */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ div{
+    bottom: 90px;
+    padding: 10px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+input{
+    width: 60px;
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: deeppink;
+}
+
+input:focus{
+    outline: none;
+}
